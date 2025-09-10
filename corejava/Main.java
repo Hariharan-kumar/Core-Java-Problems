@@ -2,6 +2,7 @@ package com.corejava;
 
 import com.corejava.armstrong.ArmstrongNumber;
 import com.corejava.factorial.FactorialUsingLoop;
+import com.corejava.factorial.FactorialUsingRecursion;
 import com.corejava.palindrome.PalindromeNumber;
 import com.corejava.reverseinteger.ReverseInteger;
 
@@ -20,7 +21,7 @@ public class Main {
         try {
               Scanner userInput =  new Scanner(System.in);
             System.out.println("************** Basic & Control Flow Problems **************");
-            System.out.println("1.Reverse Integer \n2.Palindrome \n3.Armstrong \n4.Factorial");
+            System.out.println("1.Reverse Integer \n2.Palindrome \n3.Armstrong \n4.Factorial \n5.FactorialUsingRecursion");
             System.out.print("Which Problem You Want to Run Enter Index Number : ");
             int choice = userInput.nextInt();
             switch (choice){
@@ -39,6 +40,11 @@ public class Main {
                 case 4:
                     FactorialUsingLoop fact = new FactorialUsingLoop();
                     fact.factorialUsingLoop();;
+                    break;
+                case 5:
+                    FactorialUsingRecursion factUsingRecursion = new FactorialUsingRecursion();
+                    System.out.print("Enter value to find factorial : ");
+                    System.out.println("Factorial Value is :" + factUsingRecursion.factorialUsingRecursion(userInput.nextInt()));
                     break;
                 default:
                     System.out.println("Enter Valid Index Number");
