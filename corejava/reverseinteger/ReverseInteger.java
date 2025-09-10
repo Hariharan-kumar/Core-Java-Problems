@@ -1,11 +1,11 @@
-package com.corejava.controlflow;
+package com.corejava.reverseinteger;
 
 import java.util.Scanner;
 
 public class ReverseInteger {
     Scanner userInput = null;
 
-    ReverseInteger() {
+    public ReverseInteger() {
         userInput = new Scanner(System.in);
 
     }
