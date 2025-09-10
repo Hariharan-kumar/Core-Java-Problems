@@ -3,6 +3,7 @@ package com.corejava;
 import com.corejava.armstrong.ArmstrongNumber;
 import com.corejava.factorial.FactorialUsingLoop;
 import com.corejava.factorial.FactorialUsingRecursion;
+import com.corejava.fibonacci.FibonacciSeries;
 import com.corejava.palindrome.PalindromeNumber;
 import com.corejava.reverseinteger.ReverseInteger;
 
@@ -21,7 +22,12 @@ public class Main {
         try {
               Scanner userInput =  new Scanner(System.in);
             System.out.println("************** Basic & Control Flow Problems **************");
-            System.out.println("1.Reverse Integer \n2.Palindrome \n3.Armstrong \n4.Factorial \n5.FactorialUsingRecursion");
+            System.out.println("1.Reverse Integer " +
+                    "\n2.Palindrome " +
+                    "\n3.Armstrong " +
+                    "\n4.FactorialUsingLoop " +
+                    "\n5.FactorialUsingRecursion"+
+                    "\n6.Fibonacci");
             System.out.print("Which Problem You Want to Run Enter Index Number : ");
             int choice = userInput.nextInt();
             switch (choice){
@@ -45,6 +51,11 @@ public class Main {
                     FactorialUsingRecursion factUsingRecursion = new FactorialUsingRecursion();
                     System.out.print("Enter value to find factorial : ");
                     System.out.println("Factorial Value is :" + factUsingRecursion.factorialUsingRecursion(userInput.nextInt()));
+                    break;
+                case 6:
+                    FibonacciSeries fib = new FibonacciSeries();
+                    System.out.print("Enter value to find fibonacci : ");
+                    fib.fibonacciSeries(userInput.nextInt());
                     break;
                 default:
                     System.out.println("Enter Valid Index Number");
