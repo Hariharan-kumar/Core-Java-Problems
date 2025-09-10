@@ -1,5 +1,6 @@
 package com.corejava;
 
+import com.corejava.armstrong.ArmstrongNumber;
 import com.corejava.palindrome.PalindromeNumber;
 import com.corejava.reverseinteger.ReverseInteger;
 
@@ -18,7 +19,7 @@ public class Main {
         try {
               Scanner userInput =  new Scanner(System.in);
             System.out.println("************** Basic & Control Flow Problems **************");
-            System.out.println("1.Reverse Integer \n2.Palindrome");
+            System.out.println("1.Reverse Integer \n2.Palindrome \n3.Armstrong");
             System.out.print("Which Problem You Want to Run Enter Index Number : ");
             int choice = userInput.nextInt();
             switch (choice){
@@ -29,6 +30,10 @@ public class Main {
                 case 2:
                     PalindromeNumber palindromeNumber = new PalindromeNumber();
                     palindromeNumber.palindrom();
+                    break;
+                case 3:
+                    ArmstrongNumber arms = new ArmstrongNumber();
+                    arms.armstrongNumber();
                     break;
                 default:
                     System.out.println("Enter Valid Index Number");
