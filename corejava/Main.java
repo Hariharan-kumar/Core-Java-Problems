@@ -5,6 +5,7 @@ import com.corejava.factorial.FactorialUsingLoop;
 import com.corejava.factorial.FactorialUsingRecursion;
 import com.corejava.fibonacci.FibonacciSeries;
 import com.corejava.palindrome.PalindromeNumber;
+import com.corejava.primenumbercheck.PrimeNumber;
 import com.corejava.reverseinteger.ReverseInteger;
 import com.corejava.sumofdigits.SumofDigits;
 import com.corejava.swapnumbers.SwapNumbersWithoutTemp;
@@ -31,7 +32,8 @@ public class Main {
                     "\n5.FactorialUsingRecursion"+
                     "\n6.Fibonacci"+
                     "\n7.Sum Of Digits"+
-                    "\n8.Swap Numbers Without Temp");
+                    "\n8.Swap Numbers Without Temp"+
+                    "\n9.Prime Numbers");
             System.out.print("Which Problem You Want to Run Enter Index Number : ");
             int choice = userInput.nextInt();
             switch (choice){
@@ -68,6 +70,10 @@ public class Main {
                 case 8:
                     SwapNumbersWithoutTemp swap = new SwapNumbersWithoutTemp();
                     swap.swapNumbers();
+                    break;
+                case 9:
+                    PrimeNumber prime = new PrimeNumber();
+                    prime.primeNumber();
                     break;
                 default:
                     System.out.println("Enter Valid Index Number");
