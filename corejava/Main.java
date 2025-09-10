@@ -7,6 +7,7 @@ import com.corejava.fibonacci.FibonacciSeries;
 import com.corejava.palindrome.PalindromeNumber;
 import com.corejava.reverseinteger.ReverseInteger;
 import com.corejava.sumofdigits.SumofDigits;
+import com.corejava.swapnumbers.SwapNumbersWithoutTemp;
 
 import java.util.Scanner;
 
@@ -29,7 +30,8 @@ public class Main {
                     "\n4.FactorialUsingLoop " +
                     "\n5.FactorialUsingRecursion"+
                     "\n6.Fibonacci"+
-                    "\n7.Sum Of Digits");
+                    "\n7.Sum Of Digits"+
+                    "\n8.Swap Numbers Without Temp");
             System.out.print("Which Problem You Want to Run Enter Index Number : ");
             int choice = userInput.nextInt();
             switch (choice){
@@ -62,6 +64,10 @@ public class Main {
                 case 7:
                     SumofDigits sumofDigits = new SumofDigits();
                     sumofDigits.sumOfDigits();
+                    break;
+                case 8:
+                    SwapNumbersWithoutTemp swap = new SwapNumbersWithoutTemp();
+                    swap.swapNumbers();
                     break;
                 default:
                     System.out.println("Enter Valid Index Number");
