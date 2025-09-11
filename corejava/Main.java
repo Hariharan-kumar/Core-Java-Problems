@@ -13,6 +13,7 @@ import com.corejava.printprimenumber.PrintPrimeNumber;
 import com.corejava.reverseinteger.ReverseInteger;
 import com.corejava.sumofdigits.SumofDigits;
 import com.corejava.swapnumbers.SwapNumbersWithoutTemp;
+import com.corejava.vowels.CountVowels_Consonants;
 
 import java.util.Scanner;
 
@@ -41,7 +42,8 @@ public class Main {
                     "\n10.Print Prime Number"+
                     "\n11.GCD of Two Numbers"+
                     "\n12.GCD of Odd and Even Sums"+
-                    "\n13.LCM Of Two Numbers");
+                    "\n13.LCM Of Two Numbers"+
+                    "\n14.Count Vowels & Consonants");
             System.out.print("Which Problem You Want to Run Enter Index Number : ");
             int choice = userInput.nextInt();
             switch (choice){
@@ -98,6 +100,10 @@ public class Main {
                 case 13:
                     LCMOfTwoNumbers lcm = new LCMOfTwoNumbers();
                     lcm.lcmOfTwoNumbers();
+                    break;
+                case 14:
+                    CountVowels_Consonants vowels_consonants = new CountVowels_Consonants();
+                    vowels_consonants.countVowels();
                     break;
                 default:
                     System.out.println("Enter Valid Index Number");
