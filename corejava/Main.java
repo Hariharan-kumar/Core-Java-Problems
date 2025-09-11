@@ -6,6 +6,7 @@ import com.corejava.factorial.FactorialUsingRecursion;
 import com.corejava.fibonacci.FibonacciSeries;
 import com.corejava.gcd.GCDofOddandEvenSums;
 import com.corejava.gcd.GCDofTwoNumbers;
+import com.corejava.lcm.LCMOfTwoNumbers;
 import com.corejava.palindrome.PalindromeNumber;
 import com.corejava.primenumbercheck.PrimeNumber;
 import com.corejava.printprimenumber.PrintPrimeNumber;
@@ -39,7 +40,8 @@ public class Main {
                     "\n9.Prime Numbers"+
                     "\n10.Print Prime Number"+
                     "\n11.GCD of Two Numbers"+
-                    "\n12.GCD of Odd and Even Sums");
+                    "\n12.GCD of Odd and Even Sums"+
+                    "\n13.LCM Of Two Numbers");
             System.out.print("Which Problem You Want to Run Enter Index Number : ");
             int choice = userInput.nextInt();
             switch (choice){
@@ -92,6 +94,10 @@ public class Main {
                 case 12:
                     GCDofOddandEvenSums gcDofOddandEvenSums = new GCDofOddandEvenSums();
                     gcDofOddandEvenSums.gcdOfOddandEvenNumbers();
+                    break;
+                case 13:
+                    LCMOfTwoNumbers lcm = new LCMOfTwoNumbers();
+                    lcm.lcmOfTwoNumbers();
                     break;
                 default:
                     System.out.println("Enter Valid Index Number");
