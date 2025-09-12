@@ -1,4 +1,4 @@
-package com.corejava.sumofdigits;
+package com.corejava.basicsandcontrolflow.sumofdigits;
 
 import java.util.Scanner;
 

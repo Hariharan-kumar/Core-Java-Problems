@@ -1,20 +1,20 @@
-package com.corejava;
+package com.corejava.basicsandcontrolflow;
 
-import com.corejava.armstrong.ArmstrongNumber;
-import com.corejava.factorial.FactorialUsingLoop;
-import com.corejava.factorial.FactorialUsingRecursion;
-import com.corejava.fibonacci.FibonacciSeries;
-import com.corejava.gcd.GCDofOddandEvenSums;
-import com.corejava.gcd.GCDofTwoNumbers;
-import com.corejava.lcm.LCMOfTwoNumbers;
-import com.corejava.leapyear.LeapYearCheck;
-import com.corejava.palindrome.PalindromeNumber;
-import com.corejava.primenumbercheck.PrimeNumber;
-import com.corejava.printprimenumber.PrintPrimeNumber;
-import com.corejava.reverseinteger.ReverseInteger;
-import com.corejava.sumofdigits.SumofDigits;
-import com.corejava.swapnumbers.SwapNumbersWithoutTemp;
-import com.corejava.vowels.CountVowels_Consonants;
+import com.corejava.basicsandcontrolflow.armstrong.ArmstrongNumber;
+import com.corejava.basicsandcontrolflow.factorial.FactorialUsingLoop;
+import com.corejava.basicsandcontrolflow.factorial.FactorialUsingRecursion;
+import com.corejava.basicsandcontrolflow.fibonacci.FibonacciSeries;
+import com.corejava.basicsandcontrolflow.lcm.LCMOfTwoNumbers;
+import com.corejava.basicsandcontrolflow.leapyear.LeapYearCheck;
+import com.corejava.basicsandcontrolflow.palindrome.PalindromeNumber;
+import com.corejava.basicsandcontrolflow.reverseinteger.ReverseInteger;
+import com.corejava.basicsandcontrolflow.sumofdigits.SumofDigits;
+import com.corejava.basicsandcontrolflow.swapnumbers.SwapNumbersWithoutTemp;
+import com.corejava.basicsandcontrolflow.vowels.CountVowels_Consonants;
+import com.corejava.basicsandcontrolflow.gcd.GCDofOddandEvenSums;
+import com.corejava.basicsandcontrolflow.gcd.GCDofTwoNumbers;
+import com.corejava.basicsandcontrolflow.primenumbercheck.PrimeNumber;
+import com.corejava.basicsandcontrolflow.printprimenumber.PrintPrimeNumber;
 
 import java.util.Scanner;
 

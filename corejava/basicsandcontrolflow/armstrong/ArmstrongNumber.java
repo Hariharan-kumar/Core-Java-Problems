@@ -1,4 +1,4 @@
-package com.corejava.armstrong;
+package com.corejava.basicsandcontrolflow.armstrong;
 
 import java.util.Scanner;
 

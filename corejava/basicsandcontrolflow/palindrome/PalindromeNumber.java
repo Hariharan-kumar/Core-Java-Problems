@@ -1,4 +1,4 @@
-package com.corejava.palindrome;
+package com.corejava.basicsandcontrolflow.palindrome;
 
 import java.util.Scanner;
 

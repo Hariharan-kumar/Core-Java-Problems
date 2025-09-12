@@ -1,4 +1,4 @@
-package com.corejava.swapnumbers;
+package com.corejava.basicsandcontrolflow.swapnumbers;
 
 import java.util.Scanner;
 

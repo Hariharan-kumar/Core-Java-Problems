@@ -1,4 +1,4 @@
-package com.corejava.gcd;
+package com.corejava.basicsandcontrolflow.gcd;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.corejava.leapyear;
+package com.corejava.basicsandcontrolflow.leapyear;
 
 import java.util.Scanner;
 

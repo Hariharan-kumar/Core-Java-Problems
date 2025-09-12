@@ -1,4 +1,4 @@
-package com.corejava.printprimenumber;
+package com.corejava.basicsandcontrolflow.printprimenumber;
 
 import java.util.Scanner;
 

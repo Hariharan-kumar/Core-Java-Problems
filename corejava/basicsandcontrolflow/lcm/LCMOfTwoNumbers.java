@@ -1,4 +1,4 @@
-package com.corejava.lcm;
+package com.corejava.basicsandcontrolflow.lcm;
 
 import java.util.Scanner;
 

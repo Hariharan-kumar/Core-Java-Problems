@@ -1,4 +1,4 @@
-package com.corejava.factorial;
+package com.corejava.basicsandcontrolflow.factorial;
 
 import java.util.Scanner;
 

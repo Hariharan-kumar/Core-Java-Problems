@@ -1,4 +1,4 @@
-package com.corejava.reverseinteger;
+package com.corejava.basicsandcontrolflow.reverseinteger;
 
 import java.util.Scanner;
 

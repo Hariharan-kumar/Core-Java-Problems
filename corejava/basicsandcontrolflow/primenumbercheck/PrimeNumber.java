@@ -1,4 +1,4 @@
-package com.corejava.primenumbercheck;
+package com.corejava.basicsandcontrolflow.primenumbercheck;
 
 import java.util.Scanner;
 

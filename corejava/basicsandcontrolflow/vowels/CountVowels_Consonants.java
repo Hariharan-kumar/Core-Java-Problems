@@ -1,4 +1,4 @@
-package com.corejava.vowels;
+package com.corejava.basicsandcontrolflow.vowels;
 
 import java.util.Scanner;
 
