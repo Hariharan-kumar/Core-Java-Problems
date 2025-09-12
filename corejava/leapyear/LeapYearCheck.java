@@ -11,7 +11,7 @@ public class LeapYearCheck {
     public void leapYearCheck(){
         try {
             System.out.println("----------- Leap Year Check  -----------");
-            System.out.print("Enter any words o find number of vowels and consonants: ");
+            System.out.print("Enter any year to check leap or not: ");
             int year = userInput.nextInt();
             if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
                 System.out.println("Entered year is leap");
