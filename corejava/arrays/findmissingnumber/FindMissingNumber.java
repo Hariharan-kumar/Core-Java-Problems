@@ -1,4 +1,4 @@
-package com.corejava.arrays;
+package com.corejava.arrays.findmissingnumber;
 
 import java.util.Arrays;
 import java.util.Scanner;
