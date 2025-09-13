@@ -13,7 +13,8 @@ public class Main {
         try {
             Scanner userInput = new Scanner(System.in);
             System.out.println("************** Arrays Problems **************");
-            System.out.println("1.Reverse Integer " );
+            System.out.println("1.Reverse Integer " +
+                    "\n2.Rotate Array");
             System.out.print("Which Problem You Want to Run Enter Index Number : ");
             int choice = userInput.nextInt();
             switch (choice) {
@@ -21,6 +22,11 @@ public class Main {
                     FindMissingNumber findMissingNumber = new FindMissingNumber();
                     int[] num = {1,2,3,4,6};
                     findMissingNumber.findMissingNumber(num);
+                    break;
+                case 2:
+                    RotateArray rotate = new RotateArray();
+                    int[] nums = {1,2,3,4,6};
+                    rotate.rotateArray(nums);
                     break;
 
                 default:
