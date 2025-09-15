@@ -4,6 +4,7 @@ package com.corejava.arrays;
 
 import com.corejava.arrays.findmissingnumber.FindMissingNumber;
 import com.corejava.arrays.majoritynumber.MajorityElement;
+import com.corejava.arrays.mergearray.MergeTwoSortedArrays;
 import com.corejava.arrays.removeduplicates.RemoveDuplicates;
 import com.corejava.arrays.rotatearray.RotateArray;
 import com.corejava.arrays.twosum.TwoSum;
@@ -23,7 +24,8 @@ public class Main {
                     "\n2.Rotate Array"+
                     "\n3.Majority Element"+
                     "\n4.Remove Duplicates"+
-                    "\n5.Two Sum");
+                    "\n5.Two Sum"+
+                    "\n6.Merged Two Sorted Arrays");
             System.out.print("Which Problem You Want to Run Enter Index Number : ");
             int choice = userInput.nextInt();
             switch (choice) {
@@ -48,6 +50,10 @@ public class Main {
                 case 5:
                     TwoSum sum = new TwoSum();
                     sum.twoSum();
+                    break;
+                case 6:
+                    MergeTwoSortedArrays merge = new MergeTwoSortedArrays();
+                    merge.mergeTwoSortedArray();
                     break;
 
                 default:
